@@ -18,9 +18,9 @@ This chatbot will serve to answer customers in omnichannel and transfer them to 
 
 - First we must have at least the STARTER version of Rocket.Chat.
 - Omnichannel must be enabled \
-- Create a User (call it bot or chatbot) without verified, with roles "_bot, LiveChat Agent, LiveChat Manager_"
-- Now you need create a Department (**Administration --> Omnichannel --> Department**) for entry. 
-- Now you have to enable the user as an agent, to do this in **Administration --> Omnichannel --> Agents --> _'mybot'_ --> Available**
+- Create a User (call it bot or chatbot) without verified, with roles "_bot, LiveChat Agent, LiveChat Manager_" ![Captura de pantalla 2024-06-13 122959](https://github.com/hectorllb/RocketChat-Hubot-Omnichannel-Integration/assets/166048014/b10c1035-12f7-4aa7-9020-8bd9747a1f66)
+- Now you need create a Department (**Administration --> Omnichannel --> Department**) for entry. ![image](https://github.com/hectorllb/RocketChat-Hubot-Omnichannel-Integration/assets/166048014/b12e8691-c393-4625-9404-13056503a531)
+- Now you have to enable the user as an agent, to do this in **Administration --> Omnichannel --> Agents --> _'mybot'_ --> Available** ![Captura de pantalla 2024-06-13 123152](https://github.com/hectorllb/RocketChat-Hubot-Omnichannel-Integration/assets/166048014/9b6bee44-7c7e-4f64-9015-c32db1b98e66)
 - Add _mybot_ to the Entry Department (**The bot only has to be in that department**)
     
 ## 2. Hubot-Rocketchat installation
@@ -45,6 +45,9 @@ But here are my steps in case you want to use them.
  2. ***Follow the file example for the bot (example_chatbot.coffee)***
  3. ```bin/hubot -a rocketchat --name bob > /dev/null 2>&1 &``` | **This is for exec the bot without debugging and run it on background**
  4. Now you can write in LiveChat Widget (in the Entry department) and and the bot will answer
+![unnamed](https://github.com/hectorllb/RocketChat-Hubot-Omnichannel-Integration/assets/166048014/2a3de43e-9058-4f21-a1c7-b3b01cbc403f)
+
+
 
  
 
